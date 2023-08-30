@@ -16,3 +16,20 @@
 #### Step 12. Type git commit -m "Whatever name you want", it should show some things like "create mode 100644" for all your files
 #### Step 13. And finally type git push -u origin master 
 ### NOTE: This might take a while depending on your internet speed, size of your files and number of files you want to upload to your github repository.
+
+## My steps on how to clone someone else's repository
+### Again before you can do all this you need permission from the person (stealing ain't good) and you need to go to the person's repository and there you will see a green button with the text "code" click on it and make sure you're in the HTTPS tab and you can either copy the link or just to make life easy, download the zip file then...
+#### Step 1. You first of all using cd enter the place you want to clone the repository in
+#### Step 2. You make a new folder there (not really necessary).
+#### Step 3. You enter that folder using cd
+#### Step 4. From the person's repository copy the link
+#### Step 5. Then you type git clone (that link you copied), it will download the file then you can either use code . to open it in Visual Studio Code or open the folder and open whatever you downloaded.
+
+## My steps to update an uploaded file on github
+#### Step 1. After doing your changes type git init again
+#### Step 2. Type git status, all your files should be red.
+#### Step 3. Type git add . to add it again
+#### Step 4. Type git status all files should be green.
+#### Step 5. Type git push it should show whatever it shows.
+#### Step 6. If you want to change the commit you can by doing git commit -m "Whatever you want"
+#### Step 7. Type git push -u origin master and that's all.
