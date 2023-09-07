@@ -11,7 +11,7 @@
 #### Step 7. Type git config --global user.email to be also sure it's the corresponding email address.
 #### Step 8. If its not your git account name and or your github's account's corresponding email address then after typing the two commands above, give a space and then type your github account name or your corresponding email address.
 #### Step 9. Type git push, it should say no configured push destination.
-#### Step 10. Copy the link of your new github repository and then type git remote add origin (the copied link of your new github repository)
+#### Step 10. Copy the link of your new github repository and then type git remote add origin (the copied link of your new github repository) (brackets not included)
 #### Step 11. Now type git remote -v to check if the link corresponds with what you have on your browser.
 #### Step 12. Type git commit -m "Whatever name you want", it should show some things like "create mode 100644" for all your files
 #### Step 13. And finally type git push -u origin master 
@@ -20,10 +20,10 @@
 ## My steps on how to clone someone else's repository
 ### Again before you can do all this you need permission from the person (stealing ain't good) and you need to go to the person's repository and there you will see a green button with the text "code" click on it and make sure you're in the HTTPS tab and you can either copy the link or just to make life easy, download the zip file then...
 #### Step 1. You first of all using cd enter the place you want to clone the repository in
-#### Step 2. You make a new folder there (not really necessary).
-#### Step 3. You enter that folder using cd
+#### Step 2. You make a new folder there (not really necessary but, it helps).
+#### Step 3. You enter that folder (if you made the folder) using cd
 #### Step 4. From the person's repository copy the link
-#### Step 5. Then you type git clone (that link you copied), it will download the file then you can either use code . to open it in Visual Studio Code or open the folder and open whatever you downloaded.
+#### Step 5. Then you type git clone (that link you copied),  (without the brackets), it will download the file then you can either use code . to open it in Visual Studio Code or open the folder and open whatever you downloaded.
 
 ## My steps to update an uploaded file on github
 #### Step 1. After doing your changes type git init again
